@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Tab - Sticky Notes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   
+     <div class="links-wrap">
+            <div class="action-buttons-wrap">
+                    <button class="jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}" id="color-picker"></button>
+                    <button id="create_button"></button> 
+            </div>
+            <form action="http://www.google.com/search" method="GET">
+                <input type="text" name="q" placeholder="search" class="search-input">
+                <input type="submit" value="" class="searchbar">
+            </form>
+     </div>
+     
+
+      <div id="resize-container" class="resize-container">
+      </div>
+      
+     
+      
+      <div id="wrapper">
+      </div>
+
+    <script src="jscolor.js"></script>
+    <script src="jquery.js"></script>
+    <script src="interact.min.js"></script>
+    <script src="drag.js"></script>
+    
+</body>
+</html>
